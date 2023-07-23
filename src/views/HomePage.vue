@@ -14,8 +14,17 @@
       </ion-header>
 
       <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <ion-card>
+          <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+          <ion-card-header>
+            <ion-card-title>Ionic Card test</ion-card-title>
+            <ion-card-subtitle>Card Subtitle test</ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            Here's a small text description for the card content. Nothing more, nothing less.
+          </ion-card-content>
+        </ion-card>
       </div>
     </ion-content>
   </ion-page>
